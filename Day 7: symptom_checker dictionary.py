@@ -1,4 +1,5 @@
 name = input("May i know your name?: ")
+#my dictionary with some diseases in english
 Symptoms = {'fever': 'could be malaria,flu, or typhoid',
             'headache': 'could be dehydration, malaria, or, migraine',
             'cough': 'could be flu, pneumonia, or asthma',
@@ -10,7 +11,7 @@ Symptoms = {'fever': 'could be malaria,flu, or typhoid',
             'sore throat': 'could be tonsillitis, flu, or strep throat',
             'eye pain': 'could be conjunctivitis, migraine, or eye strain'
             }
-
+# a dictionary that that holds bemba translations and links them to english key-points
 Bemba_to_english = {
     'nde unfwa umubili nau kaba': 'fever',
     'nde unfwa umutwe ule kalipa': 'headache',
@@ -23,12 +24,13 @@ Bemba_to_english = {
     'ukukalipa pa mukoshi': 'sore throat',
     'ukukalipa kwa menso': 'eye pain'
 }
+#a function to select a symptom from the dictioinary.
 def symptom_checker(symptom):
     return Symptoms.get(symptom, "Symptom not found. please consult a doctor.")
-
+#A function to translate Bemba phrases to english.
 def Translator(language):
     return Bemba_to_english.get(language, "sorry that word is not recognized.")
-
+#a while loop that keeps running the same process until user quits.
 while True:
     checker = input("Enter your symptom: ").lower()
     if checker == "quit":
