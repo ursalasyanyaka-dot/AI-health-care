@@ -1,0 +1,37 @@
+[
+    {
+        "name": "Fairview Clinic",
+        "district": "Lusaka Central",
+        "phone": "097-812-3456",
+        "nhima_accepted": true,
+        "hours": "Mon-fri 08:00 - 17:00"
+    },
+    {
+        "name": "Matero First Level Hospital",
+        "district": "Matero",
+        "phone": "096-745-2210",
+        "nhima_accepted": true,
+        "hours": "Mon-Sat 07:30 - 18:00"
+    },
+    {
+        "name": "Chilenje Clinc",
+        "district": "Chilenje",
+        "phone": "095-643-9981",
+        "nhima_accepted": false,
+        "hours": "Mon-Fri 08:00 - 16:00"
+    },
+    {
+        "name": "Chelstone Clinic",
+        "district": "Chelstone",
+        "phone": "097-501-2234",
+        "nhima_accepted": true,
+        "hours": "Mon-Sun 08:00-20:00"
+    },
+    {
+        "name": "Kalingalinga Clinic",
+        "district": "Kalingalinga",
+        "phone": "096-812-7789",
+        "nhima_accepted": false,
+        "hours": "Mon-Fri 08:00 - 17:00"
+    }
+]
